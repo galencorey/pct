@@ -1,0 +1,166 @@
+body {
+	background-color: #FF745F;
+	margin: 0;
+}
+
+h3 {
+	font-size: 35px;
+	margin: 0px;
+}
+
+h4 {
+	font-size: 25px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.header {
+	padding: 60px 30px;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+
+.header-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 150px;
+	padding: 30px;
+	background-color: #FFFFFF
+}
+
+.divider {
+	height: 100px;
+	background-color: #570A13;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.orange {
+	color: #570A13;
+}
+
+.light-orange {
+	color: #FF745F;
+}
+
+.light-gray {
+	color: #626367;
+}
+
+.light-gray-bg {
+	background-color: #F2E7D9
+}
+
+.gray-blue-bg {
+	background-color: #679283;
+}
+
+.left-align {
+}
+
+.right-align {
+	text-align: right;
+}
+
+.bullet {
+	background-color: #FF745F;
+	color: #570A13;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.bullet-title {
+	display: inline-block;
+}
+
+h1 .white {
+	margin-top: 40px;
+}
+
+#information {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+}
+
+#info-footer {
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+}
+
+#information .left, #information .right {
+	padding: 30px;
+}
+
+.left, .right {
+	width: 50%;
+}
+
+#information .left {
+	border-right: 1px dashed #FFFFFF;
+}
+
+#information .right {
+	padding-left: 30px;
+}
+
+#info-footer .left {
+	border-right: 1px dashed #626367;
+}
+
+#info-footer .left, #info-footer .right {
+	padding: 8px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+#thank-you {
+	text-align: center;
+	padding: 30px;
+}
+
+.image-placeholder {
+	margin: auto;
+	height: 150px;
+	width: 150px;
+}
+
+.image-text {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.sponsors-header {
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+.sponsors-text {
+	padding-top: 20px;
+}
+.sponsors-images {
+	padding-top: 20px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sponsors-more {
+	background-color: #570A13;
+}
