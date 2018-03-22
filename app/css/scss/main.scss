@@ -5,6 +5,9 @@ $gray-blue: #679283;
 $light-gray: #626367;
 $beige: #f2e7d9;
 
+$header-font: 'Yanone Kaffeesatz', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
 body {
   background-color: $light-orange;
   margin: 0;
@@ -20,18 +23,6 @@ h4 {
   margin: 0px;
 }
 
-h1 {
-  font-size: 50px;
-  margin: 0;
-}
-
-.header {
-  padding: 60px 30px;
-  text-align: center;
-  font-size: 50px;
-  margin: 0;
-}
-
 .header-info {
   display: flex;
   flex-direction: row;
@@ -44,14 +35,6 @@ h1 {
 .divider {
   height: 100px;
   background-color: $crimson;
-}
-
-.white {
-  color: $white;
-}
-
-.orange {
-  color: $crimson;
 }
 
 .light-orange {
@@ -173,4 +156,29 @@ ul {
 
 .sponsors-more {
   background-color: $crimson;
+}
+
+// page header
+h1 {
+  font-size: 50px;
+  margin: 0;
+  font-family: $header-font;
+}
+
+.header {
+  padding: 100px 30px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 0.9;
+  .white {
+    color: $white;
+    font-weight: 400;
+    font-size: 90px;
+  }
+  .orange {
+    color: $crimson;
+    font-weight: 700;
+    font-size: 106px;
+  }
 }
