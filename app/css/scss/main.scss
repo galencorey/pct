@@ -1,7 +1,7 @@
 $light-orange: #ff745f;
 $white: #fff9f2;
 $crimson: #570a13;
-$gray-blue: #679283;
+$green: #679283;
 $light-gray: #626367;
 $beige: #f2e7d9;
 
@@ -37,7 +37,7 @@ $body-font: 'Open Sans', sans-serif;
 }
 
 .gray-blue-bg {
-  background-color: $gray-blue;
+  background-color: $green;
 }
 
 .white {
@@ -75,11 +75,6 @@ ul {
   padding-left: 20px;
 }
 
-#thank-you {
-  text-align: center;
-  padding: 30px;
-}
-
 .image-placeholder {
   margin: auto;
   height: 150px;
@@ -89,26 +84,6 @@ ul {
 .image-text {
   padding-top: 20px;
   text-align: center;
-}
-
-.sponsors-header {
-  font-size: 20px;
-  padding-top: 30px;
-}
-
-.sponsors-text {
-  padding-top: 20px;
-}
-.sponsors-images {
-  padding-top: 20px;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.sponsors-more {
-  background-color: $crimson;
 }
 
 // page container
@@ -203,4 +178,37 @@ h1 {
   font-family: $header-font;
   text-transform: capitalize;
   font-size: 25px;
+}
+
+// sponsors
+#thank-you {
+  text-align: center;
+  padding: 30px 30px 100px;
+  background-color: $green;
+  color: $white;
+  .sponsors-header {
+    font-family: $header-font;
+    font-size: 30px;
+  }
+}
+
+.sponsors-header {
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.sponsors-text {
+  padding: 20px 0;
+}
+.sponsors-images {
+  padding-top: 20px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+// keep this at the end
+.hide {
+  display: none !important;
 }
