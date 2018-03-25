@@ -152,6 +152,9 @@ h1 {
       }
     }
   }
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
 }
 
 #information .left,
@@ -237,3 +240,5 @@ h1 {
 figcaption {
   font-size: 14px;
 }
+
+//total path length 1838.06201171875
