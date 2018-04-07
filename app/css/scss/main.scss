@@ -4,6 +4,8 @@ $crimson: #570a13;
 $green: #679283;
 $light-gray: #626367;
 $beige: #f2e7d9;
+$header: #ff745f;
+$header-height: 80px;
 
 $header-font: 'Yanone Kaffeesatz', sans-serif;
 $body-font: 'Open Sans', sans-serif;
@@ -93,7 +95,7 @@ body {
   font-family: $body-font;
   #contents {
     max-width: 1200px;
-    margin: auto;
+    margin: $header-height auto;
   }
 }
 
@@ -244,4 +246,48 @@ figcaption {
 // map detail
 .map-detail {
   padding: 40px 80px;
+}
+
+// text pages
+#main {
+  background-color: $beige;
+  min-height: 100vh;
+}
+.text-background {
+  padding: 40px 60px;
+  a {
+    color: $crimson;
+  }
+}
+
+.text-page {
+  background-color: $white;
+  padding: 30px 50px;
+  margin-top: -80px;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(98, 99, 103, 1);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(98, 99, 103, 1);
+  box-shadow: 1px 1px 3px 0px rgba(98, 99, 103, 1);
+}
+
+//header nav
+#nav {
+  background-color: $light-orange;
+  width: 100%;
+  max-width: 1200px;
+  height: $header-height;
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0px 4px 3px -3px rgba(87, 10, 19, 1);
+  -moz-box-shadow: 0px 4px 3px -3px rgba(87, 10, 19, 1);
+  box-shadow: 0px 4px 3px -3px rgba(87, 10, 19, 1);
+  display: flex;
+  align-items: center;
+  a {
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px;
+    display: block;
+    color: $crimson;
+  }
 }
