@@ -95,7 +95,7 @@ body {
   font-family: $body-font;
   #contents {
     max-width: 1200px;
-    margin: $header-height auto;
+    margin: $header-height auto 0;
   }
 }
 
