@@ -123,6 +123,9 @@ h1 {
     font-weight: 700;
     font-size: 106px;
   }
+  .small-header {
+    font-size: 75px;
+  }
 }
 
 #chinese-text {
@@ -290,4 +293,8 @@ figcaption {
     display: block;
     color: $crimson;
   }
+}
+
+.iframe-container {
+  height: 85vh;
 }
